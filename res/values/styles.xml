@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="AppBaseTheme" parent="android:Theme" />
+	<style name="AppTheme" parent="AppBaseTheme" />
+	<style name="InfoField">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">3dip</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">start</item>
+	</style>
+	<style name="InfoFieldGifWarning" parent="InfoField">
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:paddingTop">6dip</item>
+		<item name="android:paddingRight">2dip</item>
+		<item name="android:singleLine">false</item>
+		<item name="android:gravity">right</item>
+		<item name="android:textColor">@android:color/tertiary_text_dark</item>
+	</style>
+	<style name="ButtonBar" parent="android:ButtonBar">
+		<item name="android:orientation">horizontal</item>
+	</style>
+	<style name="SpinnerDropdownEntry" parent="android:Widget.TextView.SpinnerItem">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginRight">6dip</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:gravity">left|center_vertical</item>
+	</style>
+	<style name="SpinnerListEntry" parent="android:Widget.DropDownItem">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">?android:attr/listPreferredItemHeight</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceLargeInverse</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:gravity">left|center_vertical</item>
+	</style>
+</resources>

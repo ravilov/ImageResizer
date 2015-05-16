@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Image Resizer</string>
+	<string name="title_by_resolution">Resize</string>
+	<string name="title_by_filesize">Reduce</string>
+	<string name="please_wait">Please wait&#8230;</string>
+	<string name="error_intent">Invalid or nonexistent image.\n[%1$s]</string>
+	<string name="error_bitmap">Error reading image.\n[%1$s]</string>
+	<string name="error_path">Error locating image.\n[%1$s]</string>
+	<string name="error_save">Error saving image.\n[%1$s]</string>
+	<string name="error_save_temp">Error saving temporary image.\n[%1$s]</string>
+	<string name="msg_saved">New image saved as\n%1$s</string>
+	<string name="info_resolution">%1$d &#xD7; %2$d</string>
+	<string name="info_filesize">%1$.1f %2$s</string>
+	<string name="button_save">Save</string>
+	<string name="button_share">Share</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="caption_reduce">Reduce filesize to:</string>
+	<string name="caption_resize">Resize image to:</string>
+	<string name="resize_option">(up to %1$d &#xD7; %2$d)</string>
+	<string name="reduce_option">(up to %3$s)</string>
+	<string name="option_filesize">%1$.0f %2$s</string>
+	<string name="gif_warning"><![CDATA[<b>WARNING:</b> GIF support is limited at best.]]></string>
+	<string name="share_using">Share using</string>
+	<string name="menu_about">About</string>
+	<string name="button_ok">OK</string>
+	<string-array name="filesize_units">
+		<item>bytes</item>
+		<item>KB</item>
+		<item>MB</item>
+		<item>GB</item>
+		<item>TB</item>
+	</string-array>
+	<!-- NOTE: keep in sync with CommonActivity.Sizes -->
+	<string-array name="sizes">
+		<item>HQ PHOTO</item>
+		<item>PHOTO</item>
+		<item>DESKTOP</item>
+		<item>EMAIL</item>
+		<item>PREVIEW</item>
+		<item>THUMBNAIL</item>
+		<item>AVATAR</item>
+	</string-array>
+	<string name="about"><![CDATA[
+		{NAME=<big><b>%1$s</b></big><br />}
+		{VERSION=Version: %1$s<br />}
+		{BUILD=Build: %1$s<br />}
+		<br />
+		<small>&copy; by Ra &lt;<a href="mailto:ravilov@gmail.com">ravilov@gmail.com</a>&gt;</small>
+	]]></string>
+</resources>
